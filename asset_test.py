@@ -15,3 +15,4 @@ asset_collection = db["Asset"]
 unique_suppliers = df['supplier'].unique().tolist()
 supplier = st.selectbox("Which supplier do you want asset info for?", unique_suppliers)
 
+streamlit run asset_test.py []
